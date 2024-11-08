@@ -8,7 +8,7 @@ const froyo = {
 };
 
 const orderArray = userFlavors.split(",")
-//froyo.flavors = userFlavors
+
 
 
 
@@ -29,30 +29,7 @@ for (let index = 0; index < orderArray.length; index++) {
 
 console.table(froyo)
 
-
-// let userResponse = prompt("Enter froyo flavors");
-
-// const froyo = {
-//     chocolate: 0,
-//     vanilla: 0,
-//     strawberry: 0,
-//     coffee: 0,
-// }
-
-// const orderArray = userResponse.split(",")
-// // froyo.flavor = userResponse;
-
-    
-//     for (let index = 1; index < orderArray.length; index++) {
-//         if (orderArray[index] == "chocolate"){
-//             froyo.chocolate ++
-//         }        
-//     }
-//     console.table(froyo);
-
-// const froyo = {
-//     flavors: {}
-// };
+//Other Option
 
 // const order = userResponse.split(",");
 
